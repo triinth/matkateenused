@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="matkateenused.Views.StartPage"
+             Title="Matkateenused">
+
+
+    <Grid
+        IgnoreSafeArea="{OnPlatform Android=False, iOS=True}">
+
+        <!-- Hiking Images -->
+        <Image
+            x:Name="imgMilitary"
+            Opacity="0"
+            Source="military.png"
+            VerticalOptions="Start"
+            HorizontalOptions="Center"
+            TranslationX="-48"
+            TranslationY="148"
+            WidthRequest="96"
+            HeightRequest="96"/>
+
+        <Image
+            x:Name="imgCanoue"
+            Opacity="0"
+            Source="canoue.png"
+            VerticalOptions="Center"
+            HorizontalOptions="Start"
+            TranslationX="-100"
+            TranslationY="-64"
+            WidthRequest="200"
+            HeightRequest="200"/>
+
+        <Image
+            x:Name="imgNature"
+            Opacity="0"
+            Source="nature.png"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            TranslationX="32"
+            TranslationY="76"
+            WidthRequest="300"
+            HeightRequest="300"/>
+
+
+
+        <!-- Intro Box -->
+        
+    </Grid>
+
+
+</ContentPage>

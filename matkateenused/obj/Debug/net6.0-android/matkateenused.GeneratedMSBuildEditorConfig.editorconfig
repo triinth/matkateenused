@@ -1,0 +1,47 @@
+is_global = true
+build_property.TargetFramework = net6.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = matkateenused
+build_property.ProjectDir = C:\Users\triin\source\repos\triinth\matkateenused\matkateenused\
+
+[C:/Users/triin/source/repos/triinth/matkateenused/matkateenused/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = matkateenused.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/triin/source/repos/triinth/matkateenused/matkateenused/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = matkateenused.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/triin/source/repos/triinth/matkateenused/matkateenused/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = matkateenused.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/triin/source/repos/triinth/matkateenused/matkateenused/Views/HikeDetailsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = matkateenused.Views.HikeDetailsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\HikeDetailsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\HikeDetailsPage.xaml
+
+[C:/Users/triin/source/repos/triinth/matkateenused/matkateenused/Views/HikesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = matkateenused.Views.HikesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\HikesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\HikesPage.xaml
+
+[C:/Users/triin/source/repos/triinth/matkateenused/matkateenused/Views/StartPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = matkateenused.Views.StartPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\StartPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\StartPage.xaml
