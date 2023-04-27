@@ -358,3 +358,6 @@ C:\Users\triin\source\repos\triinth\matkateenused\matkateenused\obj\Debug\net6.0
 C:\Users\triin\source\repos\triinth\matkateenused\matkateenused\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\triin\source\repos\triinth\matkateenused\matkateenused\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\triin\source\repos\triinth\matkateenused\matkateenused\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\triin\source\repos\triinth\matkateenused\matkateenused\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\img_canoue.scale-100.png
+C:\Users\triin\source\repos\triinth\matkateenused\matkateenused\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\img_military.scale-100.jpg
+C:\Users\triin\source\repos\triinth\matkateenused\matkateenused\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\img_nature.scale-100.png
