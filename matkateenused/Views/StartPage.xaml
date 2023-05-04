@@ -3,50 +3,30 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="matkateenused.Views.StartPage"
              Title="Matkateenused">
-
-
-    <Grid
-        IgnoreSafeArea="{OnPlatform Android=False, iOS=True}">
-
-        <!-- Hiking Images -->
-        <Image
-            x:Name="imgMilitary"
-            Opacity="0"
-            Source="military.png"
-            VerticalOptions="Start"
-            HorizontalOptions="Center"
-            TranslationX="-48"
-            TranslationY="148"
-            WidthRequest="96"
-            HeightRequest="96"/>
-
-        <Image
-            x:Name="imgCanoue"
-            Opacity="0"
-            Source="canoue.png"
-            VerticalOptions="Center"
-            HorizontalOptions="Start"
-            TranslationX="-100"
-            TranslationY="-64"
-            WidthRequest="200"
-            HeightRequest="200"/>
-
-        <Image
-            x:Name="imgNature"
-            Opacity="0"
-            Source="nature.png"
-            VerticalOptions="Center"
-            HorizontalOptions="Center"
-            TranslationX="32"
-            TranslationY="76"
-            WidthRequest="300"
-            HeightRequest="300"/>
-
-
-
-        <!-- Intro Box -->
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Menu" Priority="0" Order="Primary" Clicked="OnMenuClicked" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#666" Offset="0.0" />
+            <GradientStop Color="#000" Offset="1.0" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+    <Grid BackgroundColor="LightGray">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Image Grid.Row="0" Source="img_mountains.png" Aspect="AspectFill" />
+        <StackLayout Grid.Row="1" Padding="20">
+            <Label Text="Matkateenused" FontSize="Large" FontAttributes="Bold" TextColor="Red" Margin="50, 20, 0, 20" />
+            <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id ipsum in dolor tristique tristique vel vel sapien." Margin="0, 0, 0, 20" />
+            <Button Text="Tutvu teenustega" Clicked="ExploreNow_Clicked" />
+        </StackLayout>
         
     </Grid>
+
+
 
 
 </ContentPage>

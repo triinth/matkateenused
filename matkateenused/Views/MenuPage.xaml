@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="matkateenused.Views.MenuPage"
+             Title="Menu">
+
+    <StackLayout BackgroundColor="#222">
+        <Label TextColor="White" Text="Menu" FontSize="Large" HorizontalOptions="CenterAndExpand" Margin="0,20,0,10"/>
+        <BoxView BackgroundColor="#999" HeightRequest="1" HorizontalOptions="FillAndExpand"/>
+        <Button TextColor="White" Text="StartPage" Clicked="StartPage_Clicked" Margin="0,20,0,0"/>
+        <BoxView BackgroundColor="#999" HeightRequest="1" HorizontalOptions="FillAndExpand"/>
+        <Button TextColor="White" Text="Canoe" Clicked="Canoe_Clicked" Margin="0,20,0,0"/>
+        <BoxView BackgroundColor="#999" HeightRequest="1" HorizontalOptions="FillAndExpand"/>
+        <Button TextColor="White" Text="Military" Clicked="Military_Clicked" Margin="0,20,0,0"/>
+        <BoxView BackgroundColor="#999" HeightRequest="1" HorizontalOptions="FillAndExpand"/>
+        <Button TextColor="White" Text="Nature" Clicked="Nature_Clicked" Margin="0,20,0,0"/>
+        <BoxView BackgroundColor="#999" HeightRequest="1" HorizontalOptions="FillAndExpand"/>
+    </StackLayout>
+
+</ContentPage>

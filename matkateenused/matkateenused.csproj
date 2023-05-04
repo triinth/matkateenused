@@ -49,10 +49,55 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\img_mountains.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Castle.Core" Version="5.1.1" />
+	  <PackageReference Include="SkiaSharp.Views.Maui.Controls.Compatibility" Version="2.88.3" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="Views\FlyoutMenuPage.xaml.cs">
+	    <DependentUpon>FlyoutMenuPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\CanoePage.xaml.cs">
+	    <DependentUpon>CanoePage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\NaturePage.xaml.cs">
+	    <DependentUpon>NaturePage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\MilitaryPage.xaml.cs">
+	    <DependentUpon>MilitaryPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\MenuPage.xaml.cs">
+	    <DependentUpon>MenuPage.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Views\MainPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\HikeDetailsPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\HikesPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\FlyoutMenuPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\CanoePage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\NaturePage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\MilitaryPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\MenuPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\StartPage.xaml">

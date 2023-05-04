@@ -18,51 +18,6 @@
                 </LinearGradientBrush>
             </Grid.Background>
 
-            <Grid.GestureRecognizers>
-                <TapGestureRecognizer Tapped="GridArea_Tapped" />
-            </Grid.GestureRecognizers>
-
-            <VerticalStackLayout
-                Margin="0,52,24,0"
-                HorizontalOptions="End"
-                Spacing="20">
-
-                <Label                
-                    Text="MENU"
-                    Style="{StaticResource PageHeaderStyle}"
-                    HorizontalOptions="End"/>
-
-                <Label                
-                    Text="Option 1 (with icon)"
-                    Style="{StaticResource PageHeaderSubtitleStyle}"
-                    HorizontalOptions="End" />
-
-                <Label                
-                    Text="Option 2 (with icon)"
-                    Style="{StaticResource PageHeaderSubtitleStyle}"
-                    HorizontalOptions="End" />
-
-                <Label                
-                    Text="Option 3 (with icon)"
-                    Style="{StaticResource PageHeaderSubtitleStyle}"
-                    HorizontalOptions="End" />
-
-                <Label                
-                    Text="Option 4 (with icon)"
-                    Style="{StaticResource PageHeaderSubtitleStyle}"
-                    HorizontalOptions="End" />
-
-                <Label                
-                    Text="Option 5 (with icon)"
-                    Style="{StaticResource PageHeaderSubtitleStyle}"
-                    HorizontalOptions="End" />
-
-                <Label                
-                    Text="Option 6 (with icon)"
-                    Style="{StaticResource PageHeaderSubtitleStyle}"
-                    HorizontalOptions="End" />
-
-            </VerticalStackLayout>
         </Grid>
 
         <!-- Main Content -->
@@ -371,6 +326,7 @@
                         Style="{StaticResource MenuLabelStyle}" />
 
                 </Grid>
+                
 
             </Border>
 

@@ -28,6 +28,18 @@ build_metadata.AdditionalFiles.ManifestResourceName = matkateenused.Resources.St
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/Users/triin/source/repos/triinth/matkateenused/matkateenused/Views/CanoePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = matkateenused.Views.CanoePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CanoePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CanoePage.xaml
+
+[C:/Users/triin/source/repos/triinth/matkateenused/matkateenused/Views/FlyoutMenuPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = matkateenused.Views.FlyoutMenuPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\FlyoutMenuPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\FlyoutMenuPage.xaml
+
 [C:/Users/triin/source/repos/triinth/matkateenused/matkateenused/Views/HikeDetailsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = matkateenused.Views.HikeDetailsPage.xaml
@@ -39,6 +51,30 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = matkateenused.Views.HikesPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\HikesPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\HikesPage.xaml
+
+[C:/Users/triin/source/repos/triinth/matkateenused/matkateenused/Views/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = matkateenused.Views.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MainPage.xaml
+
+[C:/Users/triin/source/repos/triinth/matkateenused/matkateenused/Views/MenuPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = matkateenused.Views.MenuPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MenuPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MenuPage.xaml
+
+[C:/Users/triin/source/repos/triinth/matkateenused/matkateenused/Views/MilitaryPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = matkateenused.Views.MilitaryPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MilitaryPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MilitaryPage.xaml
+
+[C:/Users/triin/source/repos/triinth/matkateenused/matkateenused/Views/NaturePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = matkateenused.Views.NaturePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\NaturePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\NaturePage.xaml
 
 [C:/Users/triin/source/repos/triinth/matkateenused/matkateenused/Views/StartPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
