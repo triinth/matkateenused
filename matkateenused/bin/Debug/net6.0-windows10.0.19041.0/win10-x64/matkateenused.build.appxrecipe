@@ -1024,6 +1024,36 @@
     <AppxPackagedFile Include="C:\Users\Anni\Desktop\Dev\matkaApp\matkateenused\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\img_nature.scale-100.png">
       <PackagePath>img_nature.scale-100.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Anni\Desktop\Dev\matkaApp\matkateenused\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\img_taust.scale-100.png">
+      <PackagePath>img_taust.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Anni\Desktop\Dev\matkaApp\matkateenused\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\img_taust_round.scale-100.jpg">
+      <PackagePath>img_taust_round.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Anni\Desktop\Dev\matkaApp\matkateenused\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\jarv.scale-100.jpg">
+      <PackagePath>jarv.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Anni\Desktop\Dev\matkaApp\matkateenused\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\kanuu.scale-100.jpg">
+      <PackagePath>kanuu.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Anni\Desktop\Dev\matkaApp\matkateenused\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\maestik.scale-100.png">
+      <PackagePath>maestik.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Anni\Desktop\Dev\matkaApp\matkateenused\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\mets.scale-100.png">
+      <PackagePath>mets.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Anni\Desktop\Dev\matkaApp\matkateenused\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\rafting.scale-100.png">
+      <PackagePath>rafting.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Anni\Desktop\Dev\matkaApp\matkateenused\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\saar.scale-100.png">
+      <PackagePath>saar.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Anni\Desktop\Dev\matkaApp\matkateenused\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\sygaviik.scale-100.jpg">
+      <PackagePath>sygaviik.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Anni\Desktop\Dev\matkaApp\matkateenused\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\telk.scale-100.png">
+      <PackagePath>telk.scale-100.png</PackagePath>
+    </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
     <ResolvedSDKReference Include="C:\Users\Anni\.nuget\packages\microsoft.windowsappsdk\1.1.5\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.1.msix">

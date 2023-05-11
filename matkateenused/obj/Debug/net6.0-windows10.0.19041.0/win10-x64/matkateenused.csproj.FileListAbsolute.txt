@@ -744,3 +744,13 @@ C:\Users\Anni\Desktop\Dev\matkaApp\matkateenused\obj\Debug\net6.0-windows10.0.19
 C:\Users\Anni\Desktop\Dev\matkaApp\matkateenused\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\Anni\Desktop\Dev\matkaApp\matkateenused\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Anni\Desktop\Dev\matkaApp\matkateenused\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\Anni\Desktop\Dev\matkaApp\matkateenused\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\img_taust.scale-100.png
+C:\Users\Anni\Desktop\Dev\matkaApp\matkateenused\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\img_taust_round.scale-100.jpg
+C:\Users\Anni\Desktop\Dev\matkaApp\matkateenused\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\jarv.scale-100.jpg
+C:\Users\Anni\Desktop\Dev\matkaApp\matkateenused\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\kanuu.scale-100.jpg
+C:\Users\Anni\Desktop\Dev\matkaApp\matkateenused\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\maestik.scale-100.png
+C:\Users\Anni\Desktop\Dev\matkaApp\matkateenused\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\mets.scale-100.png
+C:\Users\Anni\Desktop\Dev\matkaApp\matkateenused\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\rafting.scale-100.png
+C:\Users\Anni\Desktop\Dev\matkaApp\matkateenused\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\saar.scale-100.png
+C:\Users\Anni\Desktop\Dev\matkaApp\matkateenused\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\sygaviik.scale-100.jpg
+C:\Users\Anni\Desktop\Dev\matkaApp\matkateenused\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\telk.scale-100.png
