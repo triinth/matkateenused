@@ -8,22 +8,22 @@
     </ContentPage.ToolbarItems>
     <ContentPage.Background>
         <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-            <GradientStop Color="#666" Offset="0.0" />
+            <GradientStop Color="WhiteSmoke" Offset="0.0" />
             <GradientStop Color="#000" Offset="1.0" />
         </LinearGradientBrush>
     </ContentPage.Background>
-    <Grid BackgroundColor="LightGray">
+    <Grid BackgroundColor="GhostWhite">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
         <Image Grid.Row="0" Source="img_mountains.png" Aspect="AspectFill" />
         <StackLayout Grid.Row="1" Padding="20">
-            <Label Text="Matkateenused" FontSize="Large" FontAttributes="Bold" TextColor="Red" Margin="50, 20, 0, 20" />
-            <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id ipsum in dolor tristique tristique vel vel sapien." Margin="0, 0, 0, 20" />
-            <Button Text="Tutvu teenustega" Clicked="ExploreNow_Clicked" />
+            <Label Text="Matkateenused" FontSize="Large" FontAttributes="Bold" TextColor="IndianRed" Margin="50, 20, 0, 20" />
+            <Label Text="Koge elamusi, mis sütitavad, muutes sind vabaks ja valmis kõigeks, mida maailm sulle pakub!" Margin="0, 0, 0, 20" />
+            <Button Text="Seiklema!" Clicked="ExploreNow_Clicked" />
         </StackLayout>
-        
+
     </Grid>
 
 
