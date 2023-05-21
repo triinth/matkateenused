@@ -20,8 +20,8 @@
         <Image Grid.Row="0" Source="img_mountains.png" Aspect="AspectFill" />
         <StackLayout Grid.Row="1" Padding="20">
             <Label Text="Matkateenused" FontSize="Large" FontAttributes="Bold" TextColor="IndianRed" Margin="50, 20, 0, 20" />
-            <Label Text="Koge elamusi, mis sütitavad, muutes sind vabaks ja valmis kõigeks, mida maailm sulle pakub!" Margin="0, 0, 0, 20" />
-            <Button Text="Seiklema!" Clicked="ExploreNow_Clicked" />
+            <Label Text=""Looduspuhkus - parim valik!" Margin="0, 0, 0, 20" />
+            <Button Text="Avastama!" Clicked="ExploreNow_Clicked" />
         </StackLayout>
 
     </Grid>
