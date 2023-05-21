@@ -17,9 +17,9 @@ namespace matkateenused.Services
                 AccentColorEnd = Color.FromArgb("#8d9098"),
                 Images = new()
                 {
-                    "",
-                    "",
-                    ""
+                    "https://static.wixstatic.com/media/b5200d_44db052515984911b4f70b8502ed9b3a~mv2.jpg/v1/fill/w_693,h_462,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/mariell.jpg",
+                    "https://matkarada.ee/sites/default/files/2020-08/Paldiski%20300%20Muula%20kindluses.jpg",
+                    "https://matkarada.ee/sites/default/files/2020-11/_MG_3692_.JPG"
                 }
             },
 
@@ -34,9 +34,9 @@ namespace matkateenused.Services
                 AccentColorEnd = Color.FromArgb("#d17f21"),
                 Images = new()
                 {
-                    "",
-                    "",
-                    ""
+                    "https://visitviljandi.ee/wp-content/uploads/2023/04/1_-1_false_false_81817eb0e3f84a019e9e9a35bafc8962-1.jpg",
+                    "https://visitviljandi.ee/wp-content/uploads/2023/04/1_-1_false_false_8db473167e43cdda81eb66617810bf53-1.jpg",
+                    "https://www.viikingitekyla.ee/wp-content/uploads/2017/06/viikingite-k%C3%BCla-kanuumatk.jpg"
                 }
             },
 
@@ -51,9 +51,9 @@ namespace matkateenused.Services
                 AccentColorEnd = Color.FromArgb("#2e97c7"),
                 Images = new()
                 {
-                      "",
-                    "",
-                    ""
+                      "https://www.ecb.ee/wp-content/uploads/2020/12/29153329605_2c21225925_k.jpg",
+                    "https://images.rove.me/w_1920,q_85/vwzrl9fmhbkgogripe21/estonia-hiking.jpg",
+                    "https://static.visitestonia.com/images/3626708/600_400_false_false_9ab2a55cc9c32d0b348d38bb2baaf942.jpg"
                 }
             },
         };
