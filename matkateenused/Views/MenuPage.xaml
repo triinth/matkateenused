@@ -4,17 +4,17 @@
              x:Class="matkateenused.Views.MenuPage"
              Title="Menu">
 
-    <StackLayout BackgroundColor="#222">
+    <StackLayout BackgroundColor="#0D47A1">
         <Label TextColor="White" Text="Menu" FontSize="Large" HorizontalOptions="CenterAndExpand" Margin="0,20,0,10"/>
-        <BoxView BackgroundColor="#999" HeightRequest="1" HorizontalOptions="FillAndExpand"/>
+        <BoxView BackgroundColor="#BBDEFB" HeightRequest="1" HorizontalOptions="FillAndExpand"/>
         <Button TextColor="White" Text="StartPage" Clicked="StartPage_Clicked" Margin="0,20,0,0"/>
-        <BoxView BackgroundColor="#999" HeightRequest="1" HorizontalOptions="FillAndExpand"/>
+        <BoxView BackgroundColor="#BBDEFB" HeightRequest="1" HorizontalOptions="FillAndExpand"/>
         <Button TextColor="White" Text="Canoe" Clicked="Canoe_Clicked" Margin="0,20,0,0"/>
-        <BoxView BackgroundColor="#999" HeightRequest="1" HorizontalOptions="FillAndExpand"/>
+        <BoxView BackgroundColor="#BBDEFB" HeightRequest="1" HorizontalOptions="FillAndExpand"/>
         <Button TextColor="White" Text="Military" Clicked="Military_Clicked" Margin="0,20,0,0"/>
-        <BoxView BackgroundColor="#999" HeightRequest="1" HorizontalOptions="FillAndExpand"/>
+        <BoxView BackgroundColor="#BBDEFB" HeightRequest="1" HorizontalOptions="FillAndExpand"/>
         <Button TextColor="White" Text="Nature" Clicked="Nature_Clicked" Margin="0,20,0,0"/>
-        <BoxView BackgroundColor="#999" HeightRequest="1" HorizontalOptions="FillAndExpand"/>
+        <BoxView BackgroundColor="#BBDEFB" HeightRequest="1" HorizontalOptions="FillAndExpand"/>
     </StackLayout>
 
 </ContentPage>
