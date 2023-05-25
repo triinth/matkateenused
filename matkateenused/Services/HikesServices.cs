@@ -8,8 +8,8 @@ namespace matkateenused.Services
         {
             new()
             {
-                Name = " Militaarmatkad",
-                HeroImage = "img_military.png",
+                Name = "   Militaarmatkad",
+                HeroImage = "img_military.jpg",
                 Description = "Tere tulemast militaarmatkale Paldiski linnas! Lähete sügavale metsa, kus instruktorid juhendavad teid läbi rasketes tingimustes, mis simuleerivad tõelisi sõjalisi stsenaariume. Matk hõlmab relvade kasutamist, sõidukite juhtimist ja taktikalisi otsuseid. Ületate takistusi, külastate mahajäetud sõjaväeobjekte ja lahendate meeskonnatöö väljakutseid. Saate kogemusi ja oskusi, mis annavad vajalikud teadmised ja enesekindluse rasketes olukordades hakkama saamiseks. See on tõeline adrenaliin ja seiklus!",
                 Guide = "Marta Vasarik",
                 Price = 100,
@@ -25,7 +25,7 @@ namespace matkateenused.Services
 
             new()
             {
-                Name = " Kanuumatkad",
+                Name = "   Kanuumatkad",
                 HeroImage = "kanuu.jpg",
                 Description = "",
                 Guide = "",
@@ -42,7 +42,7 @@ namespace matkateenused.Services
 
             new()
             {
-                Name = " Loodusmatkad",
+                Name = "   Loodusmatkad",
                 HeroImage = "mets.png",
                 Description = "",
                 Guide = "",
