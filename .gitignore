@@ -1,0 +1,23 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/matkateenused/v17/.suo
+/matkateenused/obj/Debug/net6.0-android/designtime/libraryprojectimports.cache
+/matkateenused/obj/Debug/net6.0-android/designtime/Resource.designer.cs
+/.vs/matkateenused/FileContentIndex/22d117b3-1ed1-4c93-96a8-23517ba1749c.vsidx
+/.vs/matkateenused/FileContentIndex/cbac523d-5e07-4177-97bd-eb0c42c29702.vsidx
+/.vs/matkateenused/FileContentIndex/bd11b013-b098-4d20-877b-ce95736a8504.vsidx
+/.vs/matkateenused/FileContentIndex/760ecac9-689c-43f3-b91b-da56e5f64a76.vsidx
+/.vs/matkateenused/FileContentIndex/6f900dd0-fd47-4745-93ba-d883ceed6f85.vsidx
+/.vs/matkateenused/FileContentIndex/559bffcf-9a8a-4dcc-8c58-c530ed448497.vsidx
+/.vs/matkateenused/FileContentIndex/53a539d3-547c-4fb7-ba1d-b0e36976bf54.vsidx
+/.vs/matkateenused/FileContentIndex/183c8706-8dd4-42d3-8be9-89133ac95817.vsidx
+/matkateenused/obj/Debug/net6.0-windows10.0.19041.0/win10-x64/matkateenused.GeneratedMSBuildEditorConfig.editorconfig
+/matkateenused/obj/Debug/net6.0-windows10.0.19041.0/win10-x64/matkateenused.assets.cache
+/matkateenused/obj/Debug/net6.0-maccatalyst/maccatalyst-x64/matkateenused.assets.cache
+/matkateenused/obj/Debug/net6.0-maccatalyst/maccatalyst-x64/matkateenused.GeneratedMSBuildEditorConfig.editorconfig
+/matkateenused/obj/Debug/net6.0-android/matkateenused.GeneratedMSBuildEditorConfig.editorconfig
+/matkateenused/obj/Debug/net6.0-android/matkateenused.assets.cache
+/matkateenused/obj/Debug/net6.0-ios/iossimulator-x64/matkateenused.GeneratedMSBuildEditorConfig.editorconfig
+/matkateenused/obj/Debug/net6.0-ios/iossimulator-x64/matkateenused.assets.cache
