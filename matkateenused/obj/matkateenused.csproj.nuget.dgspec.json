@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Anni\\Desktop\\Dev\\matkaApp\\matkateenused\\matkateenused.csproj": {}
+    "C:\\Users\\Anni\\Desktop\\Dev\\matkatee\\matkateenused\\matkateenused.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Anni\\Desktop\\Dev\\matkaApp\\matkateenused\\matkateenused.csproj": {
+    "C:\\Users\\Anni\\Desktop\\Dev\\matkatee\\matkateenused\\matkateenused.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Anni\\Desktop\\Dev\\matkaApp\\matkateenused\\matkateenused.csproj",
+        "projectUniqueName": "C:\\Users\\Anni\\Desktop\\Dev\\matkatee\\matkateenused\\matkateenused.csproj",
         "projectName": "matkateenused",
-        "projectPath": "C:\\Users\\Anni\\Desktop\\Dev\\matkaApp\\matkateenused\\matkateenused.csproj",
+        "projectPath": "C:\\Users\\Anni\\Desktop\\Dev\\matkatee\\matkateenused\\matkateenused.csproj",
         "packagesPath": "C:\\Users\\Anni\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Anni\\Desktop\\Dev\\matkaApp\\matkateenused\\obj\\",
+        "outputPath": "C:\\Users\\Anni\\Desktop\\Dev\\matkatee\\matkateenused\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

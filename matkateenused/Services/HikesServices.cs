@@ -8,52 +8,52 @@ namespace matkateenused.Services
         {
             new()
             {
-                Name = "Militaarmatkad",
-                HeroImage = "",
+                Name = " Militaarmatkad",
+                HeroImage = "img_military.png",
                 Description = "Tere tulemast militaarmatkale Paldiski linnas! Lähete sügavale metsa, kus instruktorid juhendavad teid läbi rasketes tingimustes, mis simuleerivad tõelisi sõjalisi stsenaariume. Matk hõlmab relvade kasutamist, sõidukite juhtimist ja taktikalisi otsuseid. Ületate takistusi, külastate mahajäetud sõjaväeobjekte ja lahendate meeskonnatöö väljakutseid. Saate kogemusi ja oskusi, mis annavad vajalikud teadmised ja enesekindluse rasketes olukordades hakkama saamiseks. See on tõeline adrenaliin ja seiklus!",
                 Guide = "Marta Vasarik",
                 Price = 100,
-                AccentColorStart = Color.FromArgb("#353535"),
-                AccentColorEnd = Color.FromArgb("#8d9098"),
+                AccentColorStart = Color.FromArgb("#2196F3"),
+                AccentColorEnd = Color.FromArgb("#002171"),
                 Images = new()
                 {
-                    "",
-                    "",
-                    ""
+                    "sygaviik.jpg",
+                    "img_mountains.png",
+                    "maestik.png"
                 }
             },
 
             new()
             {
-                Name = "Kanuumatkad",
-                HeroImage = "",
+                Name = " Kanuumatkad",
+                HeroImage = "kanuu.jpg",
                 Description = "",
                 Guide = "",
                 Price = 130,
-                AccentColorStart = Color.FromArgb("#a6393b"),
-                AccentColorEnd = Color.FromArgb("#d17f21"),
+                AccentColorStart = Color.FromArgb("#fff2e6"),
+                AccentColorEnd = Color.FromArgb("#b35900"),
                 Images = new()
                 {
-                    "",
-                    "",
-                    ""
+                    "img_canoue.png",
+                    "rafting.png",
+                    "saar.png"
                 }
             },
 
             new()
             {
-                Name = "Loodusmatkad",
-                HeroImage = "",
+                Name = " Loodusmatkad",
+                HeroImage = "mets.png",
                 Description = "",
                 Guide = "",
                 Price = 50,
-                AccentColorStart = Color.FromArgb("#0e3d68"),
-                AccentColorEnd = Color.FromArgb("#2e97c7"),
+                AccentColorStart = Color.FromArgb("#e6fff9"),
+                AccentColorEnd = Color.FromArgb("#00b386"),
                 Images = new()
                 {
-                      "",
-                    "",
-                    ""
+                      "telk.png",
+                    "jarv.png",
+                    "saar.png"
                 }
             },
         };
