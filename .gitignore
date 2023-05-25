@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/matkateenused/FileContentIndex/22d117b3-1ed1-4c93-96a8-23517ba1749c.vsidx
+/.vs/matkateenused/FileContentIndex/a4eecf83-ba2c-4b8a-85bf-86ff67281888.vsidx
+/.vs/matkateenused/FileContentIndex/8bf923ac-cebd-4e87-9811-e95742f5466d.vsidx
+/.vs/matkateenused/FileContentIndex/6f30ef1c-80f3-439f-af39-0de3c992a779.vsidx
+/.vs/matkateenused/FileContentIndex/559bffcf-9a8a-4dcc-8c58-c530ed448497.vsidx
+/.vs/matkateenused/FileContentIndex/53a539d3-547c-4fb7-ba1d-b0e36976bf54.vsidx
+/.vs/matkateenused/FileContentIndex/bd11b013-b098-4d20-877b-ce95736a8504.vsidx
+*.vsidx
