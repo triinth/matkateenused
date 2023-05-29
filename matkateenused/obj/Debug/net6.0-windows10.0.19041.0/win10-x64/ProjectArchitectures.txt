@@ -1,1 +1,1 @@
-C:\Users\Anni\Desktop\Dev\matkatee\matkateenused\matkateenused.csproj;x64
+C:\Users\triin\source\repos\triinth\matkateenused\matkateenused\matkateenused.csproj;x64
