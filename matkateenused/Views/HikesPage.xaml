@@ -13,8 +13,8 @@
 
             <Grid.Background>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                    <GradientStop Color="#666666" Offset="0.0" />
-                    <GradientStop Color="#000000" Offset="1.0"/>
+                    <GradientStop Color="#E3F2FD" Offset="0.0" />
+                    <GradientStop Color="#002171" Offset="1.0"/>
                 </LinearGradientBrush>
             </Grid.Background>
 
@@ -41,7 +41,7 @@
 
                 <Label
                     Style="{StaticResource PageHeaderSubtitleStyle}"
-                    Text="The milky way galaxy"/>
+                    Text=""/>
 
             </VerticalStackLayout>
 
