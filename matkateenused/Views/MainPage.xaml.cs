@@ -9,17 +9,17 @@ namespace matkateenused.Views
             InitializeComponent();
         }
 
-        private async void OnKanuumatkClicked(object sender, EventArgs e)
+        private async void Canoe_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new CanoePage());
         }
 
-        private async void OnLoodusmatkClicked(object sender, EventArgs e)
+        private async void Nature_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new NaturePage());
         }
 
-        private async void OnMilitaarmatkClicked(object sender, EventArgs e)
+        private async void Military_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new MilitaryPage());
         }

@@ -17,7 +17,8 @@ namespace matkateenused.Views
 
         private async void OnLoodusmatkClicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new NaturePage());
+            await Navigation.PushAsync(new 
+                Page());
         }
 
         private async void OnMilitaarmatkClicked(object sender, EventArgs e)

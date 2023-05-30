@@ -1,13 +1,29 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d"
-             x:Class="matkateenused.Views.MilitaryPage">
+             x:Class="matkateenused.Views.MilitaryPage"
+             xmlns:services="clr-namespace:matkateenused.Services;assembly=matkateenused">
 
-    <StackLayout>
-        <Label Text="Military Page" FontSize="Large" FontAttributes="Bold" Margin="10,10,10,0" />
-    </StackLayout>
+    <ContentPage.Resources>
+        <services:HikesServices x:Key="HikesServices" />
+    </ContentPage.Resources>
 
+    <ScrollView>
+        <StackLayout>
+            <Label Text="Militaarmatkad" FontSize="Large" FontAttributes="Bold" Margin="10,10,10,0" />
+
+            <!-- Image -->
+            <Image Source="img_military.jpg" Aspect="AspectFill" HeightRequest="500" />
+
+            <!-- Additional Content -->
+            <Label Text="{Binding MilitaryDescription}" FontSize="Medium" Margin="10" />
+
+            <!-- Price -->
+            <Label Text="{Binding MilitaryPrice, StringFormat='Hind: {0:C}'}" FontSize="Medium" Margin="10" />
+            <Label Text="{Binding MilitaryGuide, StringFormat='Giid: {0}'}" FontSize="Medium" Margin="10" />
+
+            <StackLayout x:Name="imageContainer">
+                <!-- Image controls will be dynamically added here -->
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

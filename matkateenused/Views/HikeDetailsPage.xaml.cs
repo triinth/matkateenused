@@ -1,23 +1,33 @@
 using matkateenused.Models;
+using Microsoft.Maui.Controls;
 
-namespace matkateenused.Views;
-
-public partial class HikeDetailsPage : ContentPage
+namespace matkateenused.Views
 {
-    public HikeDetailsPage(Hikes hikes)
+    public partial class HikeDetailsPage : ContentPage
     {
-        InitializeComponent();
+        public HikeDetailsPage(Hikes hikes)
+        {
+            InitializeComponent();
+            this.BindingContext = hikes;
+        }
 
-        this.BindingContext = hikes;
-    }
+        private void InitializeComponent()
+        {
+            // Remove the throw new NotImplementedException() statement
+        }
 
-    private void InitializeComponent()
-    {
-        throw new NotImplementedException();
-    }
+        async void BackButton_Clicked(System.Object sender, System.EventArgs e)
+        {
+            await Navigation.PopAsync();
+        }
 
-    async void BackButton_Clicked(System.Object sender, System.EventArgs e)
-    {
-        await Navigation.PopAsync();
+        private async void Nature_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new NaturePage());
+        }
+        private async void Military_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new MilitaryPage());
+        }
     }
 }

@@ -6,10 +6,10 @@
              Title="Main Page">
     <StackLayout>
         <Button Text="Kanuumatk"
-                Clicked="OnKanuumatkClicked" />
+                Clicked="Canoe_Clicked" />
         <Button Text="Loodusmatk"
-                Clicked="OnLoodusmatkClicked" />
+                Clicked="Nature_Clicked" />
         <Button Text="Militaarmatk"
-                Clicked="OnMilitaarmatkClicked" />
+                Clicked="Military_Clicked" />
     </StackLayout>
 </ContentPage>

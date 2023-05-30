@@ -127,78 +127,13 @@
                         </Grid>
 
                     </Border>
-
-                    <!-- Most Popular Section -->
-                    <Label
-                        Style="{StaticResource PageSubHeaderStyle}"
-                        Margin="0,12,0,0">
-                        <Label.FormattedText>
-                            <FormattedString>
-                                <Span Text="Most Popular   " />
-                                <Span Text="→" FontSize="20" />
-                            </FormattedString>
-                        </Label.FormattedText>
-                    </Label>
-
-                    <CollectionView
-                        x:Name="lstPopularHikes"
-                        HeightRequest="280"
-                        SelectionMode="Single"
-                        SelectionChanged="Hikes_SelectionChanged">
-
-                        <CollectionView.ItemsLayout>
-                            <LinearItemsLayout
-                                Orientation="Horizontal"
-                                ItemSpacing="16" />
-                        </CollectionView.ItemsLayout>
-
-                        <CollectionView.ItemTemplate>
-                            <DataTemplate
-                                x:DataType="models:Hikes">
-                                <Border
-                                    VerticalOptions="Fill"
-                                    WidthRequest="220"
-                                    StrokeThickness="0"
-                                    Background="{Binding Background}"
-                                    Padding="20">
-
-                                    <Border.StrokeShape>
-                                        <RoundRectangle CornerRadius="24"/>
-                                    </Border.StrokeShape>
-
-                                    <Grid
-                                        RowDefinitions="*,Auto,Auto"
-                                        RowSpacing="4">
-
-                                        <Image
-                                            Grid.Row="0"
-                                            Source="{Binding HeroImage}"
-                                            Rotation="-30"
-                                            Aspect="AspectFit"
-                                            VerticalOptions="Fill"
-                                            HorizontalOptions="Fill"/>
-
-                                        <Label
-                                            Grid.Row="1"
-                                            Style="{StaticResource FeaturedHikeHeaderStyle}"
-                                            Text="{Binding Name}"
-                                            Margin="0,8,0,0"/>
-
-                                    </Grid>
-                                </Border>
-                            </DataTemplate>
-                        </CollectionView.ItemTemplate>
-
-                    </CollectionView>
-
-
                     <!-- More Section -->
                     <Label
                         Style="{StaticResource PageSubHeaderStyle}"
                         Margin="0,12,0,0">
                         <Label.FormattedText>
                             <FormattedString>
-                                <Span Text="Tutvu ka järgmiste matkadega:  "  />
+                                <Span Text="Matkad:  "  />
                                 <Span Text="→" FontSize="20" />
                             </FormattedString>
                         </Label.FormattedText>
@@ -259,77 +194,6 @@
                 </VerticalStackLayout>
 
             </ScrollView>
-
-            <!-- Bottom Tab Bar -->
-            <Border
-                Padding="16,0"
-                BackgroundColor="#393965"
-                Stroke="{StaticResource BorderColor}"
-                HorizontalOptions="Fill"
-                VerticalOptions="End"
-                Margin="0,0,0,20"
-                HeightRequest="90"
-                Grid.Row="1"
-                Grid.Column="0"
-                Grid.ColumnSpan="2">
-                <Border.StrokeShape>
-                    <RoundRectangle CornerRadius="45"/>
-                </Border.StrokeShape>
-
-                <Grid
-                    HorizontalOptions="Fill"
-                    VerticalOptions="Center"
-                    RowDefinitions="Auto,Auto"
-                    ColumnDefinitions="*,*,*"
-                    RowSpacing="6">
-
-                    <Image
-                        WidthRequest="30"
-                        HeightRequest="30"
-                        Source="imgexplore.png"
-                        Grid.Row="0"
-                        Grid.Column="0"
-                        HorizontalOptions="Center" />
-                    <Label
-                        Text="Explore"
-                        Grid.Row="1"
-                        Grid.Column="0"
-                        HorizontalOptions="Center"
-                        Style="{StaticResource MenuLabelStyle}" />
-
-                    <Image
-                        WidthRequest="30"
-                        HeightRequest="30"
-                        Source="imgfavorite.png"
-                        Grid.Row="0"
-                        Grid.Column="1"
-                        HorizontalOptions="Center" />
-                    <Label
-                        Text="Favorite"
-                        Grid.Row="1"
-                        Grid.Column="1"
-                        HorizontalOptions="Center"
-                        Style="{StaticResource MenuLabelStyle}" />
-
-                    <Image
-                        WidthRequest="30"
-                        HeightRequest="30"
-                        Source="imgprofile.png"
-                        Grid.Row="0"
-                        Grid.Column="2"
-                        HorizontalOptions="Center" />
-                    <Label
-                        Text="Profile"
-                        Grid.Row="1"
-                        Grid.Column="2"
-                        HorizontalOptions="Center"
-                        Style="{StaticResource MenuLabelStyle}" />
-
-                </Grid>
-                
-
-            </Border>
-
         </Grid>
 
     </Grid>

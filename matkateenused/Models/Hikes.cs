@@ -1,5 +1,12 @@
 ﻿namespace matkateenused.Models
 {
+    public enum HikeType
+    {
+        Nature,
+        Canoe,
+        Military
+    }
+
     public class Hikes
     {
         public string Name { get; set; }
@@ -9,10 +16,11 @@
         public int Price { get; set; }
         public Color AccentColorStart { get; set; }
         public Color AccentColorEnd { get; set; }
+        public HikeType Type { get; set; } // Add the Type property
 
         public List<string> Images { get; set; }
 
-        //Background
+        // Background
         public Brush Background
         {
             get
