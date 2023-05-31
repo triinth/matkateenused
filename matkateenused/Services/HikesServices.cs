@@ -29,8 +29,16 @@ namespace matkateenused.Services
             {
                 Name = "Kanuumatkad",
                 HeroImage = "kanuu.jpg",
-                Description = "",
-                Guide = "",
+                Description = "Tere tulemast kanuumatkale Eestimaa jõgedel - seiklus, mida sa ei unusta kunagi! " +
+                "Meie matkad sobivad ideaalselt kogu perele, kuid oleme mõelnud ka nõudlikumatele adrenaliinihuvilistele. " +
+                "Meie kogenud instruktorid aitavad teil valmistuda ja õpetavad teile kanuumatka aluseid, et tunneksite end" +
+                "looduse ilu nautides mugavalt ning turvaliselt. Olenemata sellest, kas soovite nautida rahulikku sõitu mööda " +
+                "jõge või otsite seiklust ja adrenaliini, pakume teile unustamatuid kanuumatka kogemusi Eestimaa jõgedel. Tule ja" +
+                " ühine meiega seikluseks!\r\n Matkajuht Renata on kirglik ja särav inimene, kellel on pikk kogemus seiklemisel erinevatel " +
+                "maailma jõgedel. Ta on tõeline loodusesõber ja pühendunud kanuumatkade instruktor, kes aitab inimestel avastada looduse võlu ja " +
+                "õpetab neile turvalise kanuusõidu alused. Renata on tähelepanelik ja empaatiline, alati valmis abistama ning vastama küsimustele. " +
+                "Tema kaasahaarav isiksus ja positiivne energia muudavad kanuumatka elamusterohkeks ja meeldejäävaks kogemuseks.",
+                Guide = "Renata Vool",
                 Price = 130,
                 AccentColorStart = Color.FromArgb("#fff2e6"),
                 AccentColorEnd = Color.FromArgb("#b35900"),

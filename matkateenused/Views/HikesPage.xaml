@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:models="clr-namespace:matkateenused.Models"
              x:Class="matkateenused.Views.HikesPage"
-             Title="Hikes Page">
+             Title="Matkad">
     <Grid>
 
         <!-- Menu Grid -->
@@ -172,7 +172,6 @@
                                         <Image
                                             Grid.Row="0"
                                             Source="{Binding HeroImage}"
-                                            Rotation="-30"
                                             Aspect="AspectFit"                                        
                                             VerticalOptions="Fill"
                                             HorizontalOptions="Fill"/>
