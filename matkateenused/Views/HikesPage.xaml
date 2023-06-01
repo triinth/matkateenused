@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:models="clr-namespace:matkateenused.Models"
              x:Class="matkateenused.Views.HikesPage"
-             Title="Matkad">
+             Title="Matkad ilusas looduses">
     <Grid>
 
         <!-- Menu Grid -->
@@ -28,7 +28,7 @@
             ColumnDefinitions="*,Auto"
             RowDefinitions="Auto,*">
 
-            <!-- Header Text -->
+            <!-- Header Text --><!--
             <VerticalStackLayout
                 Spacing="4"
                 Grid.Row="0"
@@ -45,7 +45,7 @@
 
             </VerticalStackLayout>
 
-            <!-- Profile Pic -->
+            --><!-- Profile Pic --><!--
             <Border
                 WidthRequest="56"
                 HeightRequest="56"
@@ -78,7 +78,7 @@
                     </Image.Clip>
                 </Image>
 
-            </Border>
+            </Border>-->
 
             <!-- Main Content ScrollView -->
             <ScrollView
@@ -92,7 +92,7 @@
                 <VerticalStackLayout
                     Spacing="12">
 
-                    <!-- Search Box -->
+                    <!-- Search Box --><!--
                     <Border
                         Padding="12,4"
                         BackgroundColor="#33CCCCCC"
@@ -126,22 +126,22 @@
 
                         </Grid>
 
-                    </Border>
+                    </Border>-->
                     <!-- More Section -->
                     <Label
                         Style="{StaticResource PageSubHeaderStyle}"
                         Margin="0,12,0,0">
                         <Label.FormattedText>
                             <FormattedString>
-                                <Span Text="Matkad:  "  />
-                                <Span Text="→" FontSize="20" />
+                                <Span Text="Matkad:  " FontSize="40" />
+                                <Span Text="→" FontSize="40" />
                             </FormattedString>
                         </Label.FormattedText>
                     </Label>
 
                     <CollectionView
                         x:Name="lstAllHikes"
-                        HeightRequest="160"
+                        HeightRequest="360"
                         SelectionMode="Single"
                         SelectionChanged="Hikes_SelectionChanged">
 
@@ -156,7 +156,7 @@
                                 x:DataType="models:Hikes">
                                 <Border
                                     VerticalOptions="Fill"
-                                    WidthRequest="140"
+                                    WidthRequest="380"
                                     StrokeThickness="0"
                                     Background="{Binding Background}"
                                     Padding="16">

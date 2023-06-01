@@ -11,13 +11,13 @@ namespace matkateenused.Services
         {
             new Hikes
             {
-                Name = "Militaarmatkad",
+                Name = "   Militaarmatkad",
                 HeroImage = "img_military.jpg",
                 Description = "Tere tulemast militaarmatkale Paldiski linnas! Lähete sügavale metsa, kus instruktorid juhendavad teid läbi rasketes tingimustes, mis simuleerivad tõelisi sõjalisi stsenaariume. Matk hõlmab relvade kasutamist, sõidukite juhtimist ja taktikalisi otsuseid. Ületate takistusi, külastate mahajäetud sõjaväeobjekte ja lahendate meeskonnatöö väljakutseid. Saate kogemusi ja oskusi, mis annavad vajalikud teadmised ja enesekindluse rasketes olukordades hakkama saamiseks. See on tõeline adrenaliin ja seiklus!",
                 Guide = "Marta Vasarik",
                 Price = 100,
-               AccentColorStart = Color.FromArgb("#2196F3"),
-                AccentColorEnd = Color.FromArgb("#002171"),
+               AccentColorStart = Color.FromArgb("#e6ffff"),
+                AccentColorEnd = Color.FromArgb("#80ffff"),
                 Images = new List<string>
                 {
                     "sygaviik.jpg",
@@ -27,7 +27,7 @@ namespace matkateenused.Services
             },
             new Hikes
             {
-                Name = "Kanuumatkad",
+                Name = "   Kanuumatkad",
                 HeroImage = "kanuu.jpg",
                 Description = "Tere tulemast kanuumatkale Eestimaa jõgedel - seiklus, mida sa ei unusta kunagi! " +
                 "Meie matkad sobivad ideaalselt kogu perele, kuid oleme mõelnud ka nõudlikumatele adrenaliinihuvilistele. " +
@@ -51,7 +51,7 @@ namespace matkateenused.Services
             },
             new Hikes
             {
-                Name = "Loodusmatkad",
+                Name = "   Loodusmatkad",
                 HeroImage = "mets.png",
                 Description = "Tere tulemast imelisse Eestimaa loodusesse, kus iga nurk on täis ilu ja võimalusi!" +
                 "\n Meie matkad viivad sind läbi metsade, rabade, järvede ja mägede, avastades meie looduse mitmekesisust ja võlu. " +
