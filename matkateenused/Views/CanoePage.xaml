@@ -13,7 +13,7 @@
             <Label Text="Kanuumatkad" FontSize="Large" FontAttributes="Bold" Margin="10,10,10,0" />
 
             <!-- Image -->
-            <Image Source="kanuu.jpg" Aspect="AspectFill" HeightRequest="500" />
+            <Image Source="kanuu.jpg" Aspect="AspectFit" HeightRequest="500" />
 
             <!-- Additional Content -->
             <Label Text="{Binding CanoeDescription}" FontSize="Medium" Margin="10" />

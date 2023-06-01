@@ -66,7 +66,7 @@ namespace matkateenused.Services
                 Images = new List<string>
                 {
                     "telk.png",
-                    "jarv.png",
+                    "jarv.jpg",
                     "saar.png"
                 }
             }

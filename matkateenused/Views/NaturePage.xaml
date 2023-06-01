@@ -12,7 +12,7 @@
             <Label Text="Loodusmatkad" FontSize="Large" FontAttributes="Bold" Margin="10,10,10,0" />
 
             <!-- Image -->
-            <Image Source="img_nature.png" Aspect="AspectFill" HeightRequest="500" />
+            <Image Source="img_nature.png" Aspect="AspectFit" HeightRequest="500" />
 
             <!-- Additional Content -->
             <Label Text="{Binding NatureDescription}" FontSize="Medium" Margin="10" />
