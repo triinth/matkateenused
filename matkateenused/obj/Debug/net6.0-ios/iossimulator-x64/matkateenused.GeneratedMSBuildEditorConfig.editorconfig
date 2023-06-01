@@ -76,6 +76,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = matkateenused.Views.Nature
 build_metadata.AdditionalFiles.TargetPath = Views\NaturePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\NaturePage.xaml
 
+[C:/Users/Anni/Desktop/Dev/New folder/matkateenused/Views/Register.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = matkateenused.Views.Register.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Register.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Register.xaml
+
 [C:/Users/Anni/Desktop/Dev/New folder/matkateenused/Views/StartPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = matkateenused.Views.StartPage.xaml

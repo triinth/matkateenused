@@ -155,13 +155,28 @@
                         </CollectionView.ItemTemplate>
 
                     </CollectionView>
+
+                    <!--<Button
+                        x:Name=""
+                        Text="Registreeru matkale"
+                        Clicked=""
+                        BackgroundColor="#66ffcc"
+                        TextColor="#002171"
+                        FontSize="20"
+                        FontAttributes="Bold"
+                        CornerRadius="6"
+                        Margin="0,12,0,0"
+                        Padding="12,4"/>-->
+                    
+                    
+                    
                     <!--Search Box-->
-                    <Border
+                    <!--<Border
                         Padding="12,4"
                         BackgroundColor="#66ffcc"
                         Stroke="{StaticResource BorderColor}"
                         HorizontalOptions="Fill"
-                        Margin="0,0,24,0"
+                        Margin="48,34,48,0"
                         HeightRequest="52">
                         <Border.StrokeShape>
                             <RoundRectangle CornerRadius="6"/>
@@ -189,7 +204,7 @@
 
                         </Grid>
 
-                    </Border>
+                    </Border>-->
                 </VerticalStackLayout>
 
             </ScrollView>
