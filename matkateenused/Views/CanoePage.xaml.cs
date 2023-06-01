@@ -1,6 +1,6 @@
 namespace matkateenused.Views
 {
-   public partial class CanoePage : ContentPage
+    public partial class CanoePage : ContentPage
     {
         public string CanoeDescription { get; set; }
         public string CanoeGuide { get; set; }
@@ -10,7 +10,6 @@ namespace matkateenused.Views
         public CanoePage()
         {
             InitializeComponent();
-
 
             var canoeHikes = Services.HikesServices.GetFeaturedHikes().FirstOrDefault(h => h.Name.Contains("Kanuumatkad"));
             CanoeDescription = canoeHikes.Description;
@@ -31,6 +30,11 @@ namespace matkateenused.Views
                 };
                 imageContainer.Children.Add(image);
             }
+        }
+
+        private void OnRegisterButtonClicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Register());
         }
     }
 }

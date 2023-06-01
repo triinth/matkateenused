@@ -31,5 +31,9 @@ namespace matkateenused.Views
                 imageContainer.Children.Add(image);
             }
         }
+        private void OnRegisterButtonClicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Register());
+        }
     }
 }

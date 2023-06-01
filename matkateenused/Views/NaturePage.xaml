@@ -24,6 +24,7 @@
             <StackLayout x:Name="imageContainer">
                 <!-- Image controls will be dynamically added here -->
             </StackLayout>
+            <Button Text="Registreeru matkale" Clicked="OnRegisterButtonClicked" Margin="0,10,0,10"/>
         </StackLayout>
     </ScrollView>
 </ContentPage>
