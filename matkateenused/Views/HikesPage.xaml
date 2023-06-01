@@ -92,41 +92,7 @@
                 <VerticalStackLayout
                     Spacing="12">
 
-                    <!-- Search Box --><!--
-                    <Border
-                        Padding="12,4"
-                        BackgroundColor="#33CCCCCC"
-                        Stroke="{StaticResource BorderColor}"
-                        HorizontalOptions="Fill"
-                        Margin="0,0,24,0"
-                        HeightRequest="48">
-                        <Border.StrokeShape>
-                            <RoundRectangle CornerRadius="6"/>
-                        </Border.StrokeShape>
-
-                        <Grid
-                            HorizontalOptions="Fill"
-                            VerticalOptions="Center"
-                            ColumnDefinitions="Auto,*"
-                            ColumnSpacing="16">
-
-                            <Image
-                                WidthRequest="18"
-                                HeightRequest="18"
-                                Source="imgsearch.png"
-                                Grid.Column="0"
-                                VerticalOptions="Center" />
-
-                            <Label
-                                Text="Otsi sobiv matk"
-                                Grid.Column="1"
-                                VerticalOptions="Center"
-                                VerticalTextAlignment="Center"
-                                Style="{StaticResource MenuLabelStyle}" />
-
-                        </Grid>
-
-                    </Border>-->
+                    
                     <!-- More Section -->
                     <Label
                         Style="{StaticResource PageSubHeaderStyle}"
@@ -189,7 +155,41 @@
                         </CollectionView.ItemTemplate>
 
                     </CollectionView>
+                    <!--Search Box-->
+                    <Border
+                        Padding="12,4"
+                        BackgroundColor="#66ffcc"
+                        Stroke="{StaticResource BorderColor}"
+                        HorizontalOptions="Fill"
+                        Margin="0,0,24,0"
+                        HeightRequest="52">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="6"/>
+                        </Border.StrokeShape>
 
+                        <Grid
+                            HorizontalOptions="Fill"
+                            VerticalOptions="Center"
+                            ColumnDefinitions="Auto,*"
+                            ColumnSpacing="16">
+
+                            <Image
+                                WidthRequest="18"
+                                HeightRequest="18"
+                                Source="imgsearch.png"
+                                Grid.Column="0"
+                                VerticalOptions="Center" />
+
+                            <Label
+                                Text="Registreeru matkale"
+                                Grid.Column="1"
+                                VerticalOptions="Center"
+                                VerticalTextAlignment="Center"
+                                Style="{StaticResource MenuLabelStyle}" />
+
+                        </Grid>
+
+                    </Border>
                 </VerticalStackLayout>
 
             </ScrollView>

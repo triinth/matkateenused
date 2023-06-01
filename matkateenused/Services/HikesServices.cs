@@ -44,7 +44,7 @@ namespace matkateenused.Services
                 AccentColorEnd = Color.FromArgb("#b35900"),
                 Images = new List<string>
                 {
-                    "img_canoue.png",
+                    "jarv.jpg",
                     "rafting.png",
                     "saar.png"
                 }
